@@ -19,7 +19,7 @@
 <?php foreach ($page->gallery()->toStructure()->flip() as $item): ?>
   <?php if ($image = $page->image($item->image()->toFiles()->first()->filename())): ?>
     <figure>
-      <img src="<?= $image->url() ?>" alt="<?= $item->altText()->escape() ?>">
+      <img src="<?= $image->url() ?>" loading="lazy" alt="<?= $item->altText()->escape() ?>">
       <figcaption><?= $item->title()->html() ?></figcaption>
     </figure>
   <?php endif; ?>
