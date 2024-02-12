@@ -1,0 +1,21 @@
+title: emptyspace.photos
+
+fields:
+  gallery:
+    label: Image Gallery
+    type: structure
+    fields:
+      image:
+        label: Image
+        type: files
+        query: page.images
+        multiple: false
+        text: "{{ file.filename }}"
+        value: "{{ file.id }}"
+      title:
+        label: Title
+        type: text
+      altText:
+        label: Alt Text
+        type: text
+        help: Custom alt text for the image (for SEO and accessibility).

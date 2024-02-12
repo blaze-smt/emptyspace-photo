@@ -1,1 +1,29 @@
-Title: Home
+Title: 
+
+----
+
+Gallery:
+
+- 
+  image:
+    - file://uyX4DltDzSm6O4gZ
+  title: Rocky Mountains, Denver
+  alttext: >
+    Snow-dusted hills under a clear blue sky
+    with wispy clouds in a serene landscape
+- 
+  image:
+    - file://rJZBlvDles79sjFx
+  title: Oriental Theatre, Milwaukee
+  alttext: >
+    Neon-lit signage of the Oriental Theater
+    at night, showcasing titles for an
+    upcoming film festival and movies
+
+----
+
+Image: 
+
+----
+
+Uuid: 9I7X2qaRLpfnezPQ

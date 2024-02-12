@@ -1,0 +1,120 @@
+@import url("./fonts/satoshi.css");
+
+body {
+  font-family: "Satoshi-Bold";
+  background-image: url("../images/dot-grid.svg");
+  background-repeat: repeat;
+  background-color: #fff;
+}
+
+header {
+  margin-bottom: 16rem;
+  padding: 0 1rem;
+}
+
+h1,
+span {
+  font-size: 20px;
+}
+
+a {
+  color: #000;
+}
+
+.emptyspace-logo {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  z-index: 1000;
+  mix-blend-mode: difference;
+}
+
+.emptyspace-logo path {
+  fill: white;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.season-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 124px;
+  width: 124px;
+  border-radius: 100px;
+  border: 1px solid #000;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  margin: 0;
+  max-width: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  z-index: 0;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (min-width: 1900px) {
+}
+
+@media screen and (min-width: 2500px) {
+}
+
+@media screen and (max-width: 1400px) {
+  /* XXL */
+}
+
+@media screen and (max-width: 1250px) {
+}
+
+@media screen and (max-width: 1200px) {
+  /* XL */
+}
+
+@media screen and (max-width: 992px) {
+  /* LG */
+  .emptyspace-logo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* M */
+}
+
+@media screen and (max-width: 576px) {
+  /* S */
+}
+
+@media screen and (max-width: 258px) {
+  /* XS */
+  .season-color {
+    height: 50px;
+    width: 50px;
+  }
+}
